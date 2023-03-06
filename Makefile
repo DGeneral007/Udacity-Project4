@@ -18,7 +18,7 @@ install:
 	chmod +x ./hadolint
 	
 	wget -O /bin/minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-    sudo chmod +x /bin/minikube
+    chmod +x /bin/minikube
     
     curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
     
